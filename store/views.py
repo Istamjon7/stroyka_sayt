@@ -17,3 +17,5 @@ def about(request):
 
 def blog_grid(request):
     return render(request, 'blog-grid.html')
+
+# ??????
