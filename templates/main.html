@@ -900,10 +900,10 @@
                             ><div class="menu__icon">
                               <img
                                 srcset="
-                                  images/languages/language-1.png,
-                                  images/languages/language-1@2x.png 2x
+                                  (% static 'images/languages/language-1.png,
+                                  images/languages/language-1@2x.png 2x' %)
                                 "
-                                src="images/languages/language-1.png"
+                                src="(% static 'images/languages/language-1.png' %)"
                                 alt=""
                               />
                             </div>
@@ -914,11 +914,11 @@
                           <a href="#"
                             ><div class="menu__icon">
                               <img
-                                srcset="
+                                srcset="(% static '
                                   images/languages/language-2.png,
                                   images/languages/language-2@2x.png 2x
-                                "
-                                src="images/languages/language-2.png"
+                                ' %)"
+                                src="(% static 'images/languages/language-2.png' %)"
                                 alt=""
                               />
                             </div>
@@ -933,7 +933,7 @@
                                   images/languages/language-3.png,
                                   images/languages/language-3@2x.png 2x
                                 "
-                                src="images/languages/language-3.png"
+                                src="(% static 'images/languages/language-3.png' %)"
                                 alt=""
                               />
                             </div>
@@ -944,11 +944,11 @@
                           <a href="#"
                             ><div class="menu__icon">
                               <img
-                                srcset="
+                                srcset="(% static '
                                   images/languages/language-4.png,
                                   images/languages/language-4@2x.png 2x
-                                "
-                                src="images/languages/language-4.png"
+                                ' %)"
+                                src="(% static 'images/languages/language-4.png' %)"
                                 alt=""
                               />
                             </div>
@@ -959,11 +959,11 @@
                           <a href="#"
                             ><div class="menu__icon">
                               <img
-                                srcset="
+                                srcset="(% static '
                                   images/languages/language-5.png,
                                   images/languages/language-5@2x.png 2x
-                                "
-                                src="images/languages/language-5.png"
+                                ' %)"
+                                src="(% static 'images/languages/language-5.png' %)"
                                 alt=""
                               />
                             </div>
@@ -2013,7 +2013,7 @@
                               <div class="dropcart__product-image">
                                 <a href="{% url 'product'%}"
                                   ><img
-                                    src="images/products/product-1.jpg"
+                                    src="(% static 'images/products/product-1.jpg' %)"
                                     alt=""
                                 /></a>
                               </div>
@@ -2053,7 +2053,7 @@
                               <div class="dropcart__product-image">
                                 <a href="{% url 'product'%}"
                                   ><img
-                                    src="images/products/product-2.jpg"
+                                    src="(% static 'images/products/product-2.jpg' %)"
                                     alt=""
                                 /></a>
                               </div>
@@ -2089,7 +2089,7 @@
                               <div class="dropcart__product-image">
                                 <a href="{% url 'product'%}"
                                   ><img
-                                    src="images/products/product-5.jpg"
+                                    src="(% static 'images/products/product-5.jpg' %)"
                                     alt=""
                                 /></a>
                               </div>
@@ -2353,7 +2353,7 @@
                 >
               </div>
               <div class="site-footer__payments">
-                <img src="images/payments.png" alt="" />
+                <img src="(% static 'images/payments.png' %)" alt="" />
               </div>
             </div>
           </div>
